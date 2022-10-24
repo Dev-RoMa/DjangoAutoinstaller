@@ -1,7 +1,4 @@
-@echo off
-
 python --version
-
 pip --version
 
 pip install virtualenv
@@ -10,7 +7,7 @@ virtualenv env
 
 pause
 
-@set "VIRTUAL_ENV=D:\django\env"
+@set "VIRTUAL_ENV=C:\django\env"
 
 @if defined _OLD_VIRTUAL_PROMPT (
     @set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
